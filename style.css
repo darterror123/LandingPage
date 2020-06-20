@@ -4,6 +4,63 @@
   padding: 0;
 }
 
+.slider{
+   width: 95;
+   margin: lef;
+   overflow: hidden;
+  
+}
+.slider h2 {
+  color: #000000;
+}
+.cards-banner-one p
+{
+  text-align: right;
+}
+.slider ul
+{
+  display: flex;
+   padding: 0;
+   width: 450%;
+   animation: cambio 20s infinite alternate;
+}
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 50%;
+  
+}
+@keyframes cambio
+{
+  0%{margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25%{margin-left: -100% ;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200% ;}
+  70%{margin-left: -200%;}
+  
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+}
+
+
+
+
+
+
+
+
+.news-cards01  h2  {
+  color: #000000;
+}
+.news-cards01  p {
+  color: #000000;
+}
+
 body {
   background-color: #ffffff;
   font-size: 16px;
@@ -18,7 +75,9 @@ ul
 {
   list-style: none;
 }
-
+.social p {
+  color: #000000;
+}
 .container {
   width: 90%;
   margin: auto;
@@ -68,12 +127,14 @@ hr {
   top: 15px;
   right: 30px;
   z-index: 2;
+  color: #000000;
   
 }
+
 .showcase {
 width: 100%;
 height: 550px;
-background: url("./img/fondo.jpg") no-repeat center center/cover;
+background: url("./img/fond.jpg") no-repeat center center/cover;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -81,7 +142,12 @@ text-align: center;
 justify-content: flex-end;
 padding-bottom: 50px;
 margin-bottom: 20px;
-color: #000000;
+color: #fff;
+}
+
+.showcase p{
+  color: #fff;
+  font-size: 150%;
 }
 .btn {
   cursor: pointer;
@@ -100,6 +166,7 @@ color: #000000;
 
 .showcase h2 
 {   
+  color: #fff;
   font-size: 450%;
   margin-bottom: 10px;
 }
@@ -122,6 +189,10 @@ margin-bottom: 10px;
 .news-cards h3 {
   font-size: 20px;
   margin: 10px 0;
+  color: #000000;
+}
+.news-cards p{
+  color: #000000;
 }
 
 .news-cards a {
@@ -133,33 +204,48 @@ margin-bottom: 10px;
 }
 /* CARDS BANNER ONE */
 .cards-banner-one {
+  
   width: 100%;
   height: 350px;
   background: url("./img/FONDO5.jpg");
   margin-bottom: 40px;
+}
+.cards-banner-one h2{
+  color: #fff;
 }
 
 /* CARDS BANNER ONE * lo llama y dice donde quiere q este exito*/
 .cards-banner-one .content {
   width: 40%;
   padding: 90px 0 0 30px;
-  color: #000000;
+  color: #fff;
 }
 .cards-banner-one p,
 .cards-banner-two p {
 margin: 10px 0 20px 0;
+ align-items: center;
+text-align: center;
+color: #000000;
+}
+.cards-banner-two h2 {
+  color: #fff;
 }
 
 /* CARDS BANNER TWO*/
 .cards-banner-two {
   width: 100%;
   height: 350px;
-  background: url("./img/FONDO6.jpg") no-repeat center center/cover;
+  background: url("./img/alimentos-ricos-proteinas-bajos-grasas.jpg") no-repeat center center/cover;
+  margin-bottom: 40px;
+}
+.cards-banner-two p {
+  text-align: center;
 }
 
 .cards-banner-two .content {
-  width: 50%;
-  padding: 100px 0 0 30px;
+  width: 40%;
+  padding: 90px 0 0 30px;
+  color: #fff;
 }
 
 /* Follow */
